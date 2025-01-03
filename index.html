@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Project Title</title>
+<meta charset="utf-8">
+<meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no, minimal-ui" />
+<style> @-ms-viewport { width: device-width; } </style>
+<link rel="stylesheet" href="vendor/reset.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="multiple-scenes ">
+
+<div id="pano"></div>
+
+<div id="sceneList">
+  <ul class="scenes">
+    
+      <a href="javascript:void(0)" class="scene" data-id="0--1">
+        <li class="text">Номер 1</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="1--1--">
+        <li class="text">Номер 1 доп места</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="2--1-">
+        <li class="text">Номер 1 санузел</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="3--2">
+        <li class="text">Номер 2</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="4--2-">
+        <li class="text">Номер 2 санузел</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="5----derbent-plaza">
+        <li class="text">Вход в отель Derbent Plaza</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="6-derbent-plaza----">
+        <li class="text">Derbent Plaza, вид с улицы, парковка</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="7-">
+        <li class="text">Холл</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="8--">
+        <li class="text">Холл, ресепшен</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="9--">
+        <li class="text">Ресепшен отеля</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="10----2----">
+        <li class="text">Холл, лестница на 2-й этаж и лифт</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="11-">
+        <li class="text">Лифт</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="12----101--">
+        <li class="text">Холл вход в 101 Джуниор Сюит</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="13---101--">
+        <li class="text">Джуниор Сюит (101), входная зона</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="14---101-">
+        <li class="text">Джуниор Сюит (101), спальня</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="15---101-">
+        <li class="text">Джуниор Сюит (101), санузел</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="16---105--">
+        <li class="text">Джуниор Сюит (105), входная зона</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="17---105-">
+        <li class="text">Джуниор Сюит (105), гостиная</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="18---105-">
+        <li class="text">Джуниор Сюит (105), санузел</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="19---106--">
+        <li class="text">Джуниор Сюит (106), входная зона</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="20---106--">
+        <li class="text">Джуниор Сюит (106), доп места</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="21---106-">
+        <li class="text">Джуниор Сюит (106), санузел</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="22---------106">
+        <li class="text">Холл на первом этаже, вход в Джуниор Сюит (106)</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="23----108--">
+        <li class="text">Холл, вход в 108-й (Стандарт)</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="24---------110">
+        <li class="text">Холл на первом этаже, вход в Де Люкс (110)</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="25---110--">
+        <li class="text">Де Люкс (110), входная зона</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="26---110--">
+        <li class="text">Де Люкс (110), доп места</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="27---110-">
+        <li class="text">Де Люкс (110), ванная</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="28--111--">
+        <li class="text">Люкс (111), входная зона</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="29--111-">
+        <li class="text">Люкс (111), ванная</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="30--111-">
+        <li class="text">Люкс (111), гостиная</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="31--111-">
+        <li class="text">Люкс (111), спальня</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="32--111-">
+        <li class="text">Люкс (111), Гардеробная</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="33-">
+        <li class="text">Лестница</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="34--2--">
+        <li class="text">Холл, 2-й этаж</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="35----">
+        <li class="text">Холл на втором этаже</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="36--------210">
+        <li class="text">Холл на втором этаже, вход в Стандарт (210)</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="37--------212">
+        <li class="text">Холл на втором этаже, вход в Люкс (212)</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="38--210">
+        <li class="text">Стандарт (210)</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="39--210-">
+        <li class="text">Стандарт (210), Санузел</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="40--212-">
+        <li class="text">Люкс (212), гостиная</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="41--212-">
+        <li class="text">Люкс (212), ванная</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="42--212-">
+        <li class="text">Люкс (212), спальня</li>
+      </a>
+    
+      <a href="javascript:void(0)" class="scene" data-id="43--212-">
+        <li class="text">Люкс (212), гардеробная</li>
+      </a>
+    
+  </ul>
+</div>
+
+<div id="titleBar">
+  <h1 class="sceneName"></h1>
+</div>
+
+<a href="javascript:void(0)" id="autorotateToggle">
+  <img class="icon off" src="img/play.png">
+  <img class="icon on" src="img/pause.png">
+</a>
+
+<a href="javascript:void(0)" id="fullscreenToggle">
+  <img class="icon off" src="img/fullscreen.png">
+  <img class="icon on" src="img/windowed.png">
+</a>
+
+<a href="javascript:void(0)" id="sceneListToggle">
+  <img class="icon off" src="img/expand.png">
+  <img class="icon on" src="img/collapse.png">
+</a>
+
+<a href="javascript:void(0)" id="viewUp" class="viewControlButton viewControlButton-1">
+  <img class="icon" src="img/up.png">
+</a>
+<a href="javascript:void(0)" id="viewDown" class="viewControlButton viewControlButton-2">
+  <img class="icon" src="img/down.png">
+</a>
+<a href="javascript:void(0)" id="viewLeft" class="viewControlButton viewControlButton-3">
+  <img class="icon" src="img/left.png">
+</a>
+<a href="javascript:void(0)" id="viewRight" class="viewControlButton viewControlButton-4">
+  <img class="icon" src="img/right.png">
+</a>
+<a href="javascript:void(0)" id="viewIn" class="viewControlButton viewControlButton-5">
+  <img class="icon" src="img/plus.png">
+</a>
+<a href="javascript:void(0)" id="viewOut" class="viewControlButton viewControlButton-6">
+  <img class="icon" src="img/minus.png">
+</a>
+
+<script src="vendor/screenfull.min.js" ></script>
+<script src="vendor/bowser.min.js" ></script>
+<script src="vendor/marzipano.js" ></script>
+
+<script src="data.js"></script>
+<script src="index.js"></script>
+
+</body>
+</html>
